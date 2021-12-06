@@ -45,6 +45,10 @@ set ttyfast
 set showmode
 set showcmd
 
+" Activate wild mode
+set wildmode=longest:list
+set wildmenu
+
 " Searching
 set hlsearch
 set incsearch
@@ -55,4 +59,5 @@ set showmatch
 " Color scheme (terminal)
 set t_Co=256
 set background=dark
+colorscheme desert
 
